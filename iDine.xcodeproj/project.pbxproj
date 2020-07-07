@@ -19,6 +19,7 @@
 		B12217BD24B4AC0E0038D816 /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = B12217BC24B4AC0E0038D816 /* menu.json */; };
 		B12217BF24B4BF240038D816 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12217BE24B4BF240038D816 /* ItemRow.swift */; };
 		B1DA95C724B4E4150065D880 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA95C624B4E4150065D880 /* ItemDetail.swift */; };
+		B1DA95C924B4F1930065D880 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA95C824B4F1930065D880 /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		B12217BC24B4AC0E0038D816 /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		B12217BE24B4BF240038D816 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		B1DA95C624B4E4150065D880 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		B1DA95C824B4F1930065D880 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				B122178D24B4AB890038D816 /* ContentView.swift */,
 				B12217BE24B4BF240038D816 /* ItemRow.swift */,
 				B1DA95C624B4E4150065D880 /* ItemDetail.swift */,
+				B1DA95C824B4F1930065D880 /* OrderView.swift */,
 				B122178F24B4AB8A0038D816 /* Assets.xcassets */,
 				B122179424B4AB8A0038D816 /* Info.plist */,
 				B12217B624B4ABC30038D816 /* Helper.swift */,
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1DA95C724B4E4150065D880 /* ItemDetail.swift in Sources */,
+				B1DA95C924B4F1930065D880 /* OrderView.swift in Sources */,
 				B122178E24B4AB890038D816 /* ContentView.swift in Sources */,
 				B122178C24B4AB890038D816 /* iDineApp.swift in Sources */,
 				B12217BA24B4ABE20038D816 /* Order.swift in Sources */,
