@@ -20,6 +20,7 @@
 		B12217BF24B4BF240038D816 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12217BE24B4BF240038D816 /* ItemRow.swift */; };
 		B1DA95C724B4E4150065D880 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA95C624B4E4150065D880 /* ItemDetail.swift */; };
 		B1DA95C924B4F1930065D880 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA95C824B4F1930065D880 /* OrderView.swift */; };
+		B1DA95CB24B4F6F10065D880 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DA95CA24B4F6F10065D880 /* AppView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B12217BE24B4BF240038D816 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		B1DA95C624B4E4150065D880 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		B1DA95C824B4F1930065D880 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		B1DA95CA24B4F6F10065D880 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				B12217BC24B4AC0E0038D816 /* menu.json */,
 				B12217B824B4ABE20038D816 /* Order.swift */,
 				B122179124B4AB8A0038D816 /* Preview Content */,
+				B1DA95CA24B4F6F10065D880 /* AppView.swift */,
 			);
 			path = iDine;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				B1DA95C724B4E4150065D880 /* ItemDetail.swift in Sources */,
 				B1DA95C924B4F1930065D880 /* OrderView.swift in Sources */,
+				B1DA95CB24B4F6F10065D880 /* AppView.swift in Sources */,
 				B122178E24B4AB890038D816 /* ContentView.swift in Sources */,
 				B122178C24B4AB890038D816 /* iDineApp.swift in Sources */,
 				B12217BA24B4ABE20038D816 /* Order.swift in Sources */,
