@@ -10,10 +10,13 @@ import SwiftUI
 @main
 struct iDineApp: App {
     var order = Order()
+    var favorite = Favorite()
 
     var body: some Scene {
         WindowGroup {
-            AppView().environmentObject(order)
+            AppView()
+                .environmentObject(order)
+                .environmentObject(favorite)
         }
     }
 }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ItemDetail: View {
     @EnvironmentObject var order: Order
+    @EnvironmentObject var favorite: Favorite
     var item: MenuItem
 
     var body: some View {
@@ -36,16 +37,34 @@ struct ItemDetail: View {
             .padding(.horizontal, 20)
 
             Spacer()
-        }.navigationBarTitle(Text(item.name), displayMode: .inline)
+        }
+        .navigationBarTitle(Text(item.name), displayMode: .inline)
+        .navigationBarItems(trailing:
+            Button(action: flipFavoriteToggle) {
+                let imageName = favorite.items.contains(item) ? "heart.fill" : "heart"
+                Image(systemName: imageName).imageScale(.large)
+            }
+        )
+    }
+
+    func flipFavoriteToggle() {
+        if favorite.items.contains(item) {
+            favorite.remove(item: item)
+        } else {
+            favorite.add(item: item)
+        }
     }
 }
 
 struct ItemDetail_Previews: PreviewProvider {
     static let order = Order()
+    static let favorite = Favorite()
 
     static var previews: some View {
         NavigationView {
-            ItemDetail(item: MenuItem.example).environmentObject(order)
+            ItemDetail(item: MenuItem.example)
+                .environmentObject(order)
+                .environmentObject(favorite)
         }
     }
 }
